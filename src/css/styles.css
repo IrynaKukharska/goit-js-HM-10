@@ -15,7 +15,7 @@
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(238, 217, 217, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,41 +24,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.gallery {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
-}
-
 .navigation {
   font-size: medium;
-}
-
-.feedback-form {
-  max-width: 360px;
-  width: 100%;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  background-color: #fff;
-}
-
-.feedback-form label {
-  display: flex;
-  flex-direction: column;
-  margin-top: 8px;
-  color: #663939;
-}
-
-.feedback-form textarea {
-  max-width: 360px;
-  height: 80px;
-  margin-top: 8px;
-  margin-bottom: 16px;
-  padding: 8px 15px;
 }
 
 button {
