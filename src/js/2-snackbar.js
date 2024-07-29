@@ -6,11 +6,13 @@ form.addEventListener('submit', onSubmitForm);
 
 const createPromise = (delay, state) => {
   return new Promise((resolve, reject) => {
-    if (state === 'fulfilled') {
-      resolve(delay);
-    } else {
-      reject(delay);
-    }
+    setTimeout(() => {
+      if (state === 'fulfilled') {
+        resolve(delay);
+      } else {
+        reject(delay);
+      }
+    }, delay);
   });
 };
 
